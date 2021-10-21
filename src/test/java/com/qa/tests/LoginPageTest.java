@@ -13,5 +13,9 @@ public class LoginPageTest {
 	public void test2() {
 		System.out.println("Inside Test2");
 	}
+	@Test
+	public void test3() {
+		System.out.println("Inside Test3");
+	}
 
 }

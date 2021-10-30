@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DemoGITRepo by groups" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GRP-regression" verbose="2">
+    <groups>
+      <run>
+        <include name="regression"/>
+        <exclude name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.qa.tests.TestNGGroupTest"/>
+    </classes>
+  </test>
+</suite>

@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" parallel="methods" name="Failed suite [Test-method Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="2" parallel="methods" name="Test-method test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.tests.ParallelRunTest">
+      <class name="com.qa.tests.DataProviderTestImp1">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="afterMethod"/>
-          <include name="googleTest3Firefox"/>
+          <include name="testCityName"/>
         </methods>
-      </class> <!-- com.qa.tests.ParallelRunTest -->
+      </class> <!-- com.qa.tests.DataProviderTestImp1 -->
     </classes>
-  </test> <!-- Test-method test(failed) -->
-</suite> <!-- Failed suite [Test-method Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

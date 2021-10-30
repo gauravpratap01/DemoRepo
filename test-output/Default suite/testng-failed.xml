@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.tests.HomePageTest">
+      <class name="com.qa.tests.DataProviderTestImp1">
         <methods>
-          <include name="checkDateFormatNegative"/>
+          <include name="testCityName"/>
         </methods>
-      </class> <!-- com.qa.tests.HomePageTest -->
+      </class> <!-- com.qa.tests.DataProviderTestImp1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
